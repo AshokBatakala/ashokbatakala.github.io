@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  h2 {
+    color: #53a0aa;
+    text-align: center;
+  }
+  
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  img {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* #fix the width with same proportions */
+    width: 600px;
+
+  }
+  
