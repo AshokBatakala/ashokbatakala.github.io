@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="profile">
+  <div class="profile-photo">
+    <img src="{{ .Params.photo | default "/images/me.png" }}" alt="{{ .Params.name | default .Site.Title }}">
+  </div>
+  <div class="profile-info">
+    <h1>{{ .Params.name | default .Site.Title }}</h1>
+    {{ with .Params.role }}<p class="role">{{ . }}</p>{{ end }}
+    {{ with .Params.org }}<p class="org">{{ . }}</p>{{ end }}
+    {{ with .Params.links }}
+    <p class="links">
+      {{ range $i, $l := . }}{{ if $i }} &middot; {{ end }}<a href="{{ $l.url }}">{{ $l.name }}</a>{{ end }}
+    </p>
+    {{ end }}
+  </div>
+</div>
+
+<div class="bio">
+  {{ .Content }}
+</div>
+
+{{ with hugo.Data.news }}
+<section class="news">
+  <h2>News</h2>
+  <ul>
+    {{ range . }}
+    <li><span class="date">{{ .date }}</span> {{ .text | markdownify }}</li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,26 @@
+baseURL: "https://ashokbatakala.github.io/"
+locale: "en-us"
+title: "Batakala Ashok"
+
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: "Blogs"
+      url: "/blogs/"
+      weight: 1
+    - name: "Projects"
+      url: "/projects/"
+      weight: 2
+    - name: "CV"
+      url: "/cv/"
+      weight: 3
+
+params:
+  description: "Personal website of Batakala Ashok"
+  author: "Batakala Ashok"

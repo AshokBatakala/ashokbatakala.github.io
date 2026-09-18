@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <ul class="blog-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}
