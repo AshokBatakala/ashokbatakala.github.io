@@ -1,7 +1,7 @@
 ---
 title: "Batakala Ashok"
 name: "Batakala Ashok"
-role: "TODO: your role/title"
+role: "Machine learning engineer"
 org: "Netradyne"
 photo: "/images/ashok_bnw.jpeg"
 links:
