@@ -8,11 +8,9 @@ links:
   - name: "GitHub"
     url: "https://github.com/AshokBatakala"
   - name: "LinkedIn"
-    url: "https://linkedin.com/in/TODO"
+    url: "https://www.linkedin.com/in/ashok-batakala/"
   - name: "Email"
-    url: "mailto:batakala.ashok@netradyne.com"
+    url: "mailto:ashokbatakala@gmail.com"
 ---
 
-TODO: Write a short 2-3 sentence bio here. E.g. what you work on at
-Netradyne, what you're interested in, anything you'd want a visitor to
-know about you.
+I am a machine learning engineer working in the field of computer vision. I have a Masters degree from IISc. I am currently working at Netradyne.
