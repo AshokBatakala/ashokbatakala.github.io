@@ -3,7 +3,7 @@ title: "Batakala Ashok"
 name: "Batakala Ashok"
 role: "TODO: your role/title"
 org: "Netradyne"
-photo: "/images/me.png"
+photo: "/images/ashok_bnw.jpeg"
 links:
   - name: "GitHub"
     url: "https://github.com/AshokBatakala"
