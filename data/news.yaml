@@ -1,6 +1,6 @@
 # Most recent first. Add/remove entries as things happen.
 # `text` supports Markdown (e.g. [link](https://example.com)).
-- date: "2026"
-  text: "TODO: something recent worth mentioning."
-- date: "2025"
-  text: "TODO: another update."
+- date: "July 2024"
+  text: "Joined Netradyne as a Machine Learning Engineer."
+- date: "2022"
+  text: "Started M.Tech in Computational and Data Sciences at IISc Bangalore."
