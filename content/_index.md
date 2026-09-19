@@ -13,4 +13,4 @@ links:
     url: "mailto:ashokbatakala@gmail.com"
 ---
 
-Hey! I am Ashok, I am a machine learning engineer working in the field of computer vision. I have a Masters degree from IISc. I am currently working at Netradyne.
+Hi, I'm Ashok—a Machine Learning Engineer specializing in computer vision. I hold a Master's degree from IISc Bangalore and currently building computer vision solutions at Netradyne.
