@@ -83,8 +83,8 @@ main.container {
 }
 
 .profile-photo img {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 4px;
   border: 4px solid #fff;
