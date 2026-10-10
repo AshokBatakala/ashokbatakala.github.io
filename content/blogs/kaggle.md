@@ -10,7 +10,7 @@ Kaggle gives you free GPUs. With a VS Code tunnel, you can use them from your ow
 
 In the notebook settings, turn on *Internet* and *Persistence*.
 
-```python
+```bash
 !mkdir -p /opt/vscode-cli
 !curl -sSL "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64" -o /opt/vscode-cli/vscode_cli.tar.gz
 !tar -xzf /opt/vscode-cli/vscode_cli.tar.gz -C /opt/vscode-cli && rm /opt/vscode-cli/vscode_cli.tar.gz
