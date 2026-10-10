@@ -23,6 +23,6 @@ It prints a GitHub device code. Open the link and enter the code.
 **2. Connect**
 
 - **Local VS Code:** install the *Remote - Tunnels* extension, choose "Connect to Tunnel", sign in with GitHub, and pick `kaggle-tunnel`.
-- **Browser:** [vscode.dev/tunnel/kaggle-tunnel/kaggle/working](https://vscode.dev/tunnel/kaggle-tunnel/kaggle/working)
+- **Browser:** the cell prints a link like this, just open it: `https://vscode.dev/tunnel/kaggle-tunnel/kaggle/working`
 
 Once connected, open the `/kaggle` folder and work there. With Persistence on, everything in it stays even after the instance shuts down.
